@@ -2,7 +2,6 @@ body {
   font-family: "Raleway", sans-serif;
   color: #213053;
   margin: 0;
-  padding: 20px;
 }
 
 h1,
@@ -17,6 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 15px;
 }
 
 .header__logo {
@@ -55,19 +55,18 @@ button {
 .about__sun-image {
   width: 100px;
   height: 100px;
- }
+}
 
 .about__image {
   width: 500px;
- }
+}
 
 .about {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-top: 115px;
-  padding-bottom: 115px;
-  background: url(img\back.png) no-repeat;
+  padding: 115px 0;
+  background: url(img/back.png) no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -102,8 +101,7 @@ button {
   display: flex;
   background-color: #1d263a;
   color: #fff;
-  padding-top: 115px;
-  padding-bottom: 115px;
+  padding: 115px 0;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -140,7 +138,7 @@ button {
   font-size: 18px;
   color: #213053;
   height: 60px;
-  padding: 0 0 20px 20 px;
+  padding: 0 20px;
   border-radius: 15px;
   border: none;
 }
@@ -149,16 +147,15 @@ button {
   font-size: 18px;
   color: #213053;
   height: 60px;
-  padding: 0 0 20px 20 px;
+  padding: 0 20px;
   border-radius: 15px;
   border: none;
 }
 
-.form__submit. {
+.form__submit {
   font-size: 18px;
   font-weight: 600;
-  margin-top: 40px;
-
+  margin-top: 30px;
 }
 
 select {
@@ -171,8 +168,8 @@ input {
 }
 
 input:focus {
-  box-shadow: 0 0 15px rgba(250, 250, 250, 0.400);
- }
+  box-shadow: 0 0 15px rgba(250, 250, 250, 0.4);
+}
 
 .form_input_style {
   outline: none;
@@ -194,7 +191,7 @@ footer {
 .footer__container {
   display: flex;
   justify-content: space-evenly;
- }
+}
 
 .footer__copyright {
   margin-top: 40px;
@@ -224,7 +221,6 @@ h3 {
 
 button:hover {
   background-color: #f6980c;
-  box-shadow: 0 16px 36px rgba(246 152 12 / 20%;
+  box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
   transition: background-color 0.3s ease-in;
 }
-
