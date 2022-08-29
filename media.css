@@ -22,6 +22,42 @@
     width: 90px;
     height: 90px;
   }
+
+  .features__feedback {
+    grid-template-columns: auto;
+  }
+
+  .features__feedback-right {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .features__savings-box {
+    margin-right: 0px;
+    height: 200px;
+  }
+
+  .features__rate-box {
+    height: 200px;
+  }
+
+  .promo {
+    flex-direction: column-reverse;
+  }
+
+  .promo__image {
+    height: 500px;
+    width: 100%;
+  }
+
+  .promo__right {
+    padding: 50px 10px;
+    width: 100%;
+  }
+
+  .promo__action {
+    margin-right: 20px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -80,6 +116,30 @@
   .about__sun-image {
     width: 75px;
     height: 75px;
+  }
+
+  .features {
+    padding: 50px 10px;
+  }
+
+  .cards {
+    grid-template-columns: auto;
+  }
+
+  .features__feedback-left {
+    margin-right: 0px;
+  }
+
+  .features__feedback-left h2 {
+    font-size: 36px;
+  }
+
+  .features__box h3 {
+    font-size: 36px;
+  }
+
+  .promo__right {
+    padding: 50px 10px;
   }
 
   .form {
